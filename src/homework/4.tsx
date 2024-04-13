@@ -21,7 +21,7 @@ const MenuActionContext = createContext<MenuAction>({
 });
 
 type PropsProvider = {
-  children?: React.ReactNode; // Додати тип для children
+  children?: React.ReactNode;
 };
 
 function MenuProvider({ children }: PropsProvider) {
